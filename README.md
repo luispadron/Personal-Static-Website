@@ -4,7 +4,7 @@ This is my personal website (static version, i.e no backend) since I am too brok
 
 Previously this site ran using Django and Postgres as a backend, but hosting fees are more than I  can hanlde right now so currently this is using GitHub pages and plain old CSS and HTML.
 
-Check the site out [here](luispadron.com)
+Check the site out [here](luispadron.com).
 
 Take a look at the original site [here](https://github.com/luispadron/Website).
 
