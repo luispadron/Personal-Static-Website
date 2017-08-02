@@ -448,6 +448,8 @@ footer p {
 
 .img-circle {
     border-radius: 50%;
+    box-shadow: 0px 10px 25px #6e3c2d;
+    background-color: #e0e3db;
 }
 
 .send-button {
