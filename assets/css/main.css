@@ -476,6 +476,7 @@ footer p {
   position: relative;
   padding-right: 0;
   padding-left: 0;
+  padding-bottom: 0;
   border: none;
   border-radius: 0;
   font-size: 1.5em;
@@ -487,6 +488,7 @@ footer p {
   display: block;
   z-index: 0;
   position: relative;
+  color: gray;
   top: 2em;
   margin: 0;
   font-size: 0.85em;
@@ -508,7 +510,7 @@ footer p {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #F05F40;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
