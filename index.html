@@ -94,6 +94,8 @@
     </div>
   </section>
 
+  <!-- Projects section -->
+
   <section id="projects" style="padding-top: 200px; padding-bottom: 200px;">
     <div class="container">
       <div class="row">
@@ -103,6 +105,7 @@
         </div>
       </div>
     </div>
+
     <div class="container">
       <div class="row">
 
@@ -144,8 +147,22 @@
 
       </div>
     </div>
+
+    <br>
+    <br>
+
+    <!-- Add a Github contribution calendar -->
+    <h3 class="text-center">What else have I been up to?</h3>
+    <br>
+    <div class="calendar" onclick="window.open('https://github.com/luispadron','newWindow');">
+      Loading GitHub contributions...
+      <br>
+      If graph fails to load, go <a href="https://github.com/users/luispadron/contributions">here</a>.
+    </div>
+
   </section>
 
+  <!-- Resume and articles aside -->
   <aside class="bg-dark">
     <div class="container text-center">
       <div class="call-to-action">
@@ -219,8 +236,7 @@
 
     </div>
 
-
-
+    <!-- Social section -->
     <div class="container" style="padding-top: 30px;">
       <div class="col-lg-4 col-lg-offset-2 text-center" style="padding-top: 40px;">
         <i class="fa fa-github fa-3x sr-contact"></i>
@@ -236,6 +252,11 @@
   </section>
 
 
+  <footer>
+    <div class="container text-center">
+      <p class="credits">Made with <span class="love">♥</span> by <a class="green" href="#" target="blank">Luis Padron</a></p>
+    </div>
+  </footer>
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
@@ -258,12 +279,15 @@
   <!-- Contact form JS -->
   <script src="assets/js/contact_form.js"></script>
 
-</body>
+  <!-- Github contributions JS -->
+  <script
+    src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+  </script>
 
-<footer>
-  <div class="container text-center">
-    <p class="credits">Made with <span class="love">♥</span> by <a class="green" href="#" target="blank">Luis Padron</a></p>
-  </div>
-</footer>
+<script>
+    GitHubCalendar(".calendar", "luispadron");
+</script>
+
+</body>
 
 </html>
