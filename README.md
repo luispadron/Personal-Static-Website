@@ -1,5 +1,9 @@
 # luispadron.com
 
+## ARCHIVED
+
+Check out the new page repo [here](https://github.com/luispadron/conversationalportfolio)
+
 This is my personal website (static version, i.e no backend) since I am too broke to pay for hosting.
 
 Previously this site ran using Django and Postgres as a backend, but hosting fees are more than I  can hanlde right now so currently this is using GitHub pages and plain old CSS and HTML.
